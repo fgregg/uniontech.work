@@ -1,0 +1,128 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=OCR+A+Extended&family=VT323&display=swap');
+
+/* Westminster MICR font - subsetted for "Union Tech 2026" */
+@font-face {
+  font-family: 'Westminster';
+  src: url('/assets/fonts/westminster-subset.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@import "minima";
+
+:root {
+  --pw-black: #000;
+  --pw-white: #fff;
+  --pw-gray: #888;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: var(--pw-white);
+  color: var(--pw-black);
+  line-height: 1.5;
+}
+
+.site-header {
+  background-color: var(--pw-black);
+  border-top: none;
+  border-bottom: 4px solid var(--pw-black);
+  min-height: auto;
+  padding: 1rem 0;
+}
+
+.site-title, .site-title:visited {
+  color: var(--pw-white) !important;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.page-content {
+  padding: 2rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-family: 'Westminster', monospace;
+  font-size: 3rem;
+  text-transform: uppercase;
+  border-bottom: 4px solid var(--pw-black);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.5em;
+  text-align: justify;
+}
+
+strong {
+  background-color: var(--pw-black);
+  color: var(--pw-white);
+  padding: 0.1em 0.3em;
+}
+
+em {
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed var(--pw-black);
+  margin: 2rem 0;
+}
+
+a {
+  color: var(--pw-black);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+  background-color: var(--pw-black);
+  color: var(--pw-white);
+}
+
+.site-footer {
+  background-color: var(--pw-black);
+  color: var(--pw-white);
+  border-top: 4px solid var(--pw-black);
+  padding: 1.5rem 0;
+}
+
+.site-footer a {
+  color: var(--pw-white);
+}
+
+.site-footer a:hover {
+  background-color: var(--pw-white);
+  color: var(--pw-black);
+}
+
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Xerox/photocopy texture effect */
+.wrapper {
+  max-width: 700px;
+}
+
+.post-list {
+  display: none;
+}
