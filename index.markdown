@@ -23,3 +23,4 @@ Sessions will focus on concrete dilemmas of data collection, use, training, and 
 * Erin Markiewitz
 * [Vera Khovanskaya](https://verakhovanskaya.github.io/)
 * Forest Gregg
+* [Sean O'Brien](https://labor.wayne.edu/profile/gk0718)
