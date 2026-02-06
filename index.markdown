@@ -19,7 +19,6 @@ Sessions will focus on concrete dilemmas of data collection, use, training, and 
 ## Organizing Committee
 * [Ben Packer](https://bprp.xyz/)
 * Palak Shah
-* [Eric Blanc](https://ericblanc.org/)
 * Erin Markiewitz
 * [Vera Khovanskaya](https://verakhovanskaya.github.io/)
 * Forest Gregg
